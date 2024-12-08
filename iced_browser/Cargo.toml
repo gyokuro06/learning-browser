@@ -1,0 +1,11 @@
+[package]
+name = "iced_browser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = "0.13.1"
+serde = { version = "1.0.215", features = ["derive"] }
+strum = "0.26.3"
+strum_macros = "0.26.4"
+thiserror = "2.0.3"
